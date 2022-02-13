@@ -1,0 +1,44 @@
+body {
+    max-width: 800px;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url("moroccan-flower-dark.jpeg");
+}
+.nav {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidenav {
+    width: 75px;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    padding: 24px 0;
+    text-align: center;
+  }
+  
+  .main {
+    margin-right: 140px;
+    font-size: 14px;
+    padding: 12px 10px;
+    background-image: url("images/moroccan-flower-dark.jpeg");
+  }
+
+  img {
+    float: right; 
+    background-image: url("moroccan-flower.png"); 
+    }
+
+header > nav {
+    float: left;
+}
+
+header, footer {
+    background-color: #ffe4c4;
+padding: 12px; 
+text-align: center;
+}
